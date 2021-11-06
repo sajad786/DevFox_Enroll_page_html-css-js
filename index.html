@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- fontawesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        @media (max-width: 992px) {
+            .navbar-collapse {
+                position: fixed;
+                top: 50px;
+                /* adjust to height of navbar */
+                left: 0;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-bottom: 15px;
+                width: 75%;
+                height: 100%;
+            }
+            .navbar-collapse.collapsing {
+                left: -75%;
+                transition: height 0s ease;
+            }
+            .navbar-collapse.show {
+                left: 0;
+                transition: left 300ms ease-in-out;
+            }
+            .navbar-toggler.collapsed~.navbar-collapse {
+                transition: left 500ms ease-in-out;
+            }
+        }
+    </style>
+
+    <title>DevFox</title>
+</head>
+
+<body>
+    <section class="innerSection">
+        <div class="container">
+
+            <div class="upperSection">
+                <div class="outerLogo">
+                    <div id="logo">
+                        <nav class="navbar-nav">
+                            <a href="#"><img src="images/devFoxLogo.png" alt=""></a>
+
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="social_media">
+                            <div class="icon">
+                                <img src="./images/whatsImage.gif" alt="DM us">
+                            </div>
+                            <div class="iconText">
+                                <h5>WHATSAPP</h5>
+                                <a href="#">
+                                    <h6>+919891270547</h6>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="social_media">
+                            <div class="icon">
+                                <img src="./images/call-phone.gif" alt="call us">
+                            </div>
+                            <div class="iconText">
+                                <h5>CAll us on</h5>
+                                <a href="#">
+                                    <h6>+919891270547</h6>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="social_media">
+                            <div class="icon_email">
+                                <img src="./images/email.jpg" alt="call us">
+                            </div>
+                            <div class="iconText_email">
+                                <h5> EMAIL US ON</h5>
+                                <a href="#">
+                                    <h6>nfo.india@devfox.in</h6>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="icon_bttn">
+                            <a href="#" class="btn ">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="lowerSection">
+
+        </div>
+
+        </div>
+        <div class="navbars">
+            <div class="container">
+                <div class="inner_navbar">
+                    <div class="interior_navbar">
+                        <nav class="navbar navbar-expand-lg navbar-light ">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About us</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Industrial Training
+                                            </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Registration</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Online Training</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Certificate</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact Us</a>
+                                    </li>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class=" enroll">
+                    <a href="#">Enroll Now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- responsive section -->
+
+    <section>
+        <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+            <a class="navbar-brand" href="">Roknil Style</a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="container register">
+                <div class="row">
+                    <div class="col-md-3 register-left">
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+                        <h3>Welcome</h3>
+                        <p>Enroll yourself today tomorrow may be too late!</p>
+
+                    </div>
+                    <div class="col-md-9 register-right">
+
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <h3 class="register-heading">Student Enrollment Form</h3>
+                                <div class="row register-form">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input placeholder="Date Of Submission *" class="form-control" type="text" onfocus="(this.type='date')" id="date">
+
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Student name*" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input placeholder="Date Of Birth *" class="form-control" type="text" onfocus="(this.type='date')" id="date">
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option class="hidden"  selected disabled>Select A Qualification</option>
+                                                <option>BCA</option>
+                                                <option>MCA</option>
+                                                <option>Computer Science</option>
+                                                 <option>Others</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="maxl">
+                                                <label class="radio inline"> 
+                                                   <span> Student Photograph </span> <br> 
+                                                    
+                                                </label>
+                                                <input type="file" name="Photograph" value="Student Photograph">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Student Email *" value="Student Email" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Father Name *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="phone Number*" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option class="hidden"  selected disabled>Looking For Course</option>
+                                                <option>PHP</option>
+                                                <option>Python</option>
+                                                <option>Oracle</option>
+                                                 <option>Cyber Security</option>
+                                                 <option>RPA Training</option>
+                                                <option>Blue Prism Training</option>
+                                                <option>Automation Anywhere Training</option>
+                                                 <option>Ui Path Training</option>
+                                                 <option>DevOps Training</option>
+                                                <option>Tableau Training</option>
+                                                <option>Power BY Training</option>
+                                                 <option>SAS Training</option>
+                                                 <option>Clinical SAS Training</option>
+                                                <option>Salesforce Training</option>
+                                                <option>Informatics Training</option>
+                                            </select>
+                                        </div>
+                                        <input type="submit" class="btnRegister" value="Enrolled" id="submitForm" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer -->
+        <footer class="page-footer font-small indigo">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <div class="footer-logo">
+                            <img src="images/footerlogo.png" alt="logo">
+                        </div>
+
+                        <div class="footer-para">
+                            <br>
+                            <p> Welcome to the IT world, to make your business provincial to global.</p>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Useful Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Home</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> About Us</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Courses</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Services</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Tutorials</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Certificates</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Other Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Digital Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> UI/UX Designing</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Web Development</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Frontend Development</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> CMS Development</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Graphics Designing</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-angle-right"></i> Web Designing</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Get in Touch</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!"><i class="fas fa-envelope"></i> info.india@sstcloud.in</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fab fa-whatsapp"></i> 91-9015937199</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="far fa-address-card"></i> UG-B-119 manhattan mall, Mathura road Faridabad Haryana India</a>
+                            </li>
+                            <li>
+                                <a href="#!"><i class="fas fa-barcode"></i> Pin Code 121002</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <div class="container">
+                <hr color="#fff">
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">
+                <a href="#">© 2020 Copyright:</a>
+                <a href="#">Devfox.in</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </footer>
+    <!-- bootstrap script links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+
+</html>

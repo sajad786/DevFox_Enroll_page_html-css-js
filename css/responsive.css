@@ -1,0 +1,16 @@
+@media (max-width: 992px) {
+    .inner_section {
+        display: none;
+    }
+    .responsive {
+        display: block;
+    }
+    .logo_section_background {
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+    }
+    .Logo_itself {
+        margin: 0 auto;
+    }
+}
